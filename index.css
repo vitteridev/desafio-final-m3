@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/puntitos.svg);
+  padding: 18px 17px 0;
+}
+
+.nav{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-img{
+  width: 100px;
+  height: 100%;
+}
+
+.menu-icon-container{
+  width: 54px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-icon span{
+  display: block;
+  width: 36px;
+  height: 6px;
+  margin-bottom: 5px;
+  background-color: #141414;
+  border-radius: 3px;
+}
+
+.titulo-container{
+  width: 291px;
+  margin: 94px auto 0;
+}
+.titulo-principal{
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.foto-container{
+  width: 290px;
+  height: 335px;
+  margin: 55px auto 0;
+}
+.foto-principal{
+  width: 100%;
+  height: 100%;
+}
